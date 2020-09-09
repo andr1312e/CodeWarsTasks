@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decoder", "ConsoleApp1\Decoder.csproj", "{939BAF4D-B1B1-4D4E-B7C2-AC365E33D02B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{939BAF4D-B1B1-4D4E-B7C2-AC365E33D02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{939BAF4D-B1B1-4D4E-B7C2-AC365E33D02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{939BAF4D-B1B1-4D4E-B7C2-AC365E33D02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{939BAF4D-B1B1-4D4E-B7C2-AC365E33D02B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C69A03C2-F04A-440D-B304-835FB18C4476}
+	EndGlobalSection
+EndGlobal
