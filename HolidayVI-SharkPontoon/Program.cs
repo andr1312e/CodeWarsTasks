@@ -14,7 +14,8 @@ namespace HolidayVI_SharkPontoon
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Shark(12, 50, 4, 8, true));
+            Console.WriteLine(Shark(7, 8, 3, 4, false));
+            Console.WriteLine(Shark(26, 6, 2, 1, false));
             Console.ReadKey();
 
         }
@@ -43,7 +44,7 @@ namespace HolidayVI_SharkPontoon
                     return ("Shark Bait!");
                 }
                 double speedDifference = RealSharkSpeed - yourSpeed;
-                double time = sharkDistance / speedDifference;
+                double time = (sharkDistance-pontoonDistance) / speedDifference;
                 if(time<pontoonDistance/yourSpeed)
                 return ("Shark Bait!");
                 else
@@ -52,4 +53,4 @@ namespace HolidayVI_SharkPontoon
         }
     }
 }
-////////Дописать
+////////Дописатьq
