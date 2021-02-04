@@ -1,0 +1,48 @@
+.graph-button-close {
+    display: inline-block;
+    border: none;
+    color: black;
+    text-decoration: none;
+    background-color: #f2f2f2;
+    padding: 15px 45px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    border-radius: 2px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    transition: background-color 0.1s ease;
+    cursor: pointer;
+  }
+  .graph-button-close::after {
+    transition: background-color 0.2s ease;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.18;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    left: 0;
+  }
+  .graph-button-close:focus, .graph-button-close:hover {
+    text-decoration: none;
+    color: black;
+  }
+  .graph-button-close:hover {
+    background-color: #e6e6e6;
+  }
+  .graph-button-close:hover::after {
+    opacity: 0.22;
+  }
+  .graph-button-close:active {
+    background-color: #00e632;
+  }
+  .graph-button-close:active::after {
+    color: white;
+    opacity: 0.32;
+  }
+  .button{
+    background-color: #00e632;  
+  }
